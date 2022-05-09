@@ -1,0 +1,51 @@
+.diferenciais {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.diferenciais__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.diferenciais__item {
+    max-width: 350px;
+
+    box-sizing: border-box;
+
+    padding: 2rem 0 2rem 5rem;
+
+    background-repeat: no-repeat;/*aqui corrigimos a posição das imagens abaixo deixando apenas
+    um icone na posição desejada e não mais diversos um ao lado do outro*/
+
+    background-position: top 1.25rem left 2.5rem; 
+}
+    
+
+.diferenciais__item--tempo {  /* classe modificadora -- para colocar uma imagem direto no css*/
+    background-image: url("img/icone-relogio.png"); /*foi impresso diversas imagens vamos corrigir na classe acima usando
+    o background-repeat: no repeat*/ 
+}
+
+.diferenciais__item--foco {
+    background-image: url("img/icone-dinheiro.png");
+}
+
+.diferenciais__item--especialistas {
+    background-image: url("img/icone-quimica.png");
+}
+
+
+.item__titulo {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+
+    margin-bottom: 1.5rem;
+}
+
+.item__texto {
+    line-height: normal;
+}

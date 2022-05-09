@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale=1>
+        <title>Home | Apeperia</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&
+        family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="css/reset.css" rel="stylesheet">
+        <link href="base.css" rel="stylesheet">
+        <link href="css/cabecalho.css" rel="stylesheet">
+        <link href="css/chamada.css" rel="stylesheet">
+        <link href="destaques.css" rel="stylesheet">
+        <link href="diferenciais.css" rel="stylesheet">
+        <link href="sobre.css" rel="stylesheet">
+        <link href="css/planos.css" rel="stylesheet">
+        <link href="contato.css" rel="stylesheet">
+        <link href="institucional.css" rel="stylesheet">
+        <link href="rodape.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="cabecalho container">
+            <img src="img/logo-apeperia.svg" alt="Logo da Apeperia" class="cabecalho__logo">
+            <nav class="cabecalho__navegacao">
+                <ul>
+                    <li class="cabecalho__link"><a href="#">Sobre</a></li>
+                    <li class="cabecalho__link"><a href="#">Planos</a></li>
+                    <li class="cabecalho__link"><a href="#">Blog</a></li>
+                    <li class="cabecalho__link"><a href="#">Destaques</a></li>
+                    <li class="cabecalho__link"><a href="#">Institucional</a></li>
+                    <li class="cabecalho__link"><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+        </header> <!--Obs-1-->
+        <main>
+            <section class="chamada container"><!-- repare que temos duas classes a chamada e a container-->
+                <h1 class="chamada__titulo">Aplicativos Na Medida</h1>
+                <p class="chamada__texto">Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e médias empresas.</p>
+                <a href="#" class="chamada__botao botao">Conheça os planos</a>
+            </section>
+        </main>
+
+        <section class="destaques container">
+            <h2 class="destaques__titulo">Destaques</h2>
+            <a href="#">
+                <figure class="destaques__painel">
+                    <img src="img/comecando-criar-logotipo.png" alt="Painel do post sobre criação de logotipo"
+                     class="destaques__painel-imagem">
+                    <figcaption class="destaques__painel-texto">Conheça as primeiras etapas para a criação de um logotipo</figcaption>
+                </figure>
+            </a>
+            <a href="">
+                <figure class="destaques__painel">
+                    <img src="img/dicas-fotografia.png" alt="Painel do post sobre fotografia com celular" class="destaques__painel-imagem">
+                    <figcaption class="destaques__painel-texto">Veja dicas de como fotografar usando seu celular</figcaption>
+                </figure>
+            </a>
+            <a href="#" class="destaques__botao botao">Receber destaques por email</a>
+        </section>
+
+        <section class="diferenciais container">
+            <ul class="diferenciais__lista">
+                <li class="diferenciais__item diferenciais__item--tempo">
+                    <h2 class="item__titulo">Tempo</h2>
+                    <p class="item__texto">Tempo é importante! Trabalhamos em ritmo acelerado, atendendo rigorosamente aos prazos.</p>
+                </li>
+                <li class="diferenciais__item diferenciais__item--foco">
+                    <h2 class="item__titulo">Foco</h2>
+                    <p class="item__texto">Focamos no empreendimento! Oferecemos serviços de qualidade com preços acessíveis.</p>
+                </li>
+                <li class="diferenciais__item diferenciais__item--especialistas">
+                    <h2 class="item__titulo">Especialistas</h2>
+                    <p class="item__texto">Equipe experiente e especializada! Testamos todos os produtos antes do lançamento.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="sobre container">
+            <div class="sobre__conteudo">
+                <h2 class="sobre__titulo">Sobre</h2>
+                <p class="sobre__texto">Criamos aplicativos personalizados para <strong class="sobre__texto--destaque">todas as pessoas</strong>!</p>
+                <p class="sobre__texto">
+                    A manutenção de um aplicativo não pode ser um custo extra para o cliente, Na Apeperia você assina nosso serviço e a manutenção já está inclusa. Assim, você não se preocupa com manutenção, é tudo por nossa conta.
+                </p>
+                <p class="sobre__texto sobre__texto--destaque sobre__texto--divisao">
+                    Conte com uma equipe especializada e exclusiva pra projetos incríveis em qualquer plataforma.
+                </p>
+                <ul class="sobre__plataformas">
+                    <li><img src="img/android.png" alt="Ícone do Android"></li>
+                    <li><img src="img/blackberry.png" alt="Ícone da Blackberry"></li>
+                    <li><img src="img/apple.png" alt="Ícone da Apple"></li>
+                    <li><img src="img/windowsphone.png" alt="Ícone da Microsoft"></li>
+                </ul>
+                <p class="sobre__texto">Desenvolvemos aplicativos para todas as plataformas</p>
+            </div>
+            <img src="img/sobre-apeperia.png" alt="Sobre a Apeperia" class="sobre__imagem">
+        </section>
+
+        <section class="planos container">
+            <h2 class="planos__titulo">Planos</h2>
+            <ul class="planos__cartoes">
+                <li class="cartao cartao--start">
+                    <h3 class="cartao__titulo">Start</h3>
+                    <article class="cartao__conteudo">
+                        <p class="cartao__preco"><em>R$ 500</em></p>
+                        <p class="cartao__texto">5 manutenções mensais</p>
+                        <p class="cartao__texto">App SEO</p>
+                        <p class="cartao__texto">1 sistema operacional</p>
+                        <a href="plano.html" class="cartao__botao cartao__botao--start botao">Assinar plano</a>
+                    </article>
+                </li>
+                <li class="cartao cartao--ultra">
+                    <h3 class="cartao__titulo">Ultra</h3>
+                    <article class="cartao__conteudo">
+                        <p class="cartao__preco"><em>R$ 1500</em></p>
+                        <p class="cartao__texto">20 manutenções mensais</p>
+                        <p class="cartao__texto">App SEO</p>
+                        <p class="cartao__texto">4 sistemas operacionais</p>
+                        <p class="cartao__texto">24h de atendimento</p>
+                        <a href="" class="cartao__botao cartao__botao--ultra botao">Assinar plano</a>
+                    </article>
+                </li>
+                <li class="cartao cartao--mega">
+                    <h3 class="cartao__titulo">Mega</h3>
+                    <p class="cartao__preco"><em>R$ 1000</em></p>
+                    <article class="cartao__conteudo">
+                        <p class="cartao__texto">10 manutenções mensais</p>
+                        <p class="cartao__texto">App SEO</p>
+                        <p class="cartao__texto">2 sistemas operacionais</p>
+                        <a href="" class="cartao__botao cartao__botao--mega botao">Assinar plano</a>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <section class="contato container">
+            <h2 class="contato__titulo">Contato</h2>
+            <p>Entre em contato com a gente</p>
+            <a href="contato.html" class="contato__botao botao">Entre em contato</a>
+        </section>
+
+        <section class="institucional container">
+            <h2 class="institucional__titulo">Institucional</h2>
+            <p class="institucional__descricao">Um pouco mais sobre a Apeperia</p>
+            <address class="institucional__endereco">
+                Rua Vergueiro, 3185<br>
+                Vila Mariana, São Paulo
+                <article class="institucional__contato">
+                    <p>
+                        <a href="tel:+551155712751" class="institucional__contato-telefone">(11) 5571-2751</a>
+                        ou
+                        <a href="mailto:contato@apeperia.com" class="institucional__contato-email">contato@apeperia.com</a>
+                    </p>
+                </article>
+            </address>
+            <video src="img/formacao-java.mp4" class="institucional__video" controls></video>
+        </section>
+      <footer class="rodape container">
+          <img src="img/logo-apeperia.svg" alt="Logo da apeperia" class="rodape__logo">
+          <ul class="rodape__social">
+              <li>
+                  <a href="#" class="rodape__midia">
+                      <img src="img/facebook.png" alt="Ícone do Facebook">
+                  </a>
+                </li>
+              <li>
+                  <a href="#" class="rodape__midia">
+                      <img src="img/twitter.png" alt="Ícone do twitter">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="rodape__midia">
+                      <img src="img/instagram.png" alt="Ícone do instagram">
+                  </a>
+                </li>
+          </ul>
+          <nav>
+              <ul class="rodape__navegacao">
+                  <li class="rodape__link"><a href="#">Sobre</a></li>
+                  <li class="rodape__link"><a href="#">Planos</a></li>
+                  <li class="rodape__link"><a href="#">Blog</a></li>
+                  <li class="rodape__link"><a href="#">Destaques</a></li>
+                  <li class="rodape__link"><a href="#">Institucional</a></li>
+                  <li class="rodape__link"><a href="#">Contato</a></li>
+              </ul>
+            </nav>
+      </footer>
+
+        
+    </body>
+</html>
+
+
+<!--
+    Emmet - Emmet é um conjunto de plug-ins para editores de texto que permitem codificação e edição em alta
+     velocidade em HTML, XML, XSLT e outros formatos de código estruturado por meio do assistente de conteúdo.
+
+Obs- 1 
+Quando observamos o cabeçalho do projeto observamos que há um logo com o nome apeperia, ou seja uma imagem,
+e alguns links navegaveis <nav>. 
+    Para evitar escrever todo o código 
+    <header>
+        <img src=""> 
+        <nav>
+            <ul>
+                <li><a href=""></a></l>
+            </ul>
+        </nav>
+    </header>
+
+Vamos pensar: a header é mãe direta das tags - img e nav, então vamos otimizar usando Emmet:
+header>(símbolo de maior que...)img+nav(o mais é para significa e), ou seja a tag header>img+nav
+Continuando na estrutura da header nos temos img, nav, dentro da nav uma lista não ordenada - ul, dentro
+da ul temos 6 itens de uma lista - li*6 e dentro das seis li temos os links (ancora) a. Então usando o Emmet para 
+facilitar na construção desta estrutura teremos:
+header>img+nav>ul>li*6>a : apertando enter teremos toda a estrutura da tag header feita, ficando assim:
+<header>
+            <img src="" alt="">
+            <nav>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        se caso o enter não funcionar vá ate o final da linha aperte ctrl+espaço, vá no menu e aperte enter no primeiro item Emmet.
+
+        Continuando o desenvolvimento da página:
+        abra a pasta com os textos alternativos (alt), que devem estar nas imagens da página e importe o texto para alt;
+        Importe também as descrições da tag <a> ex: <a>Sobre</a>;
+        Como não temos os links disponíveis coloque # dentro das <a href="#">
+
+    Obs - 2
+    Main - Agora, vamos usar novamente o Emmet para auxiliar na montagem da estrutura da <main>:
+        Na <main> temos uma seção como filho direto <section>, dentro da section temos o titulo principal h1, temos um texto
+        descritivo do app <p> e temos um botão de acesso aos planos (observe que não é um botão <button> e 
+        sim um link <a> dentro de um container estilizado em css em forma de botão,com margem, border arrendodada 
+        (border radius, cor de fundo...)).
+
+        Então sabendo a estrutura do main teremos;
+       <main>
+           section>h1+p+a
+       </main> 
+       Com os textos importados deverá ficar assim:
+       <main>
+            <section>
+                <h1>Aplicativos Na Medida</h1>
+                <p>Apeperia tem um jeito inovador de comparar e montar aplicativos para pequenas e médias empresas.</p>
+                <a href="#">Conheça os planos</a>
+            </section>
+
+        </main>
+
+        Vamos pegar as fontes e cores do Figma para deixarmos as propriedades raízes na head do html e
+        na :root do css. Lembrando que a fonte colhemos do fonts.google.
+        Abra o google fontes procure por open sans e montserrat 300,400,700, adicione elas no + e copie o link com a 
+        referencia para dentro da <head>.
+    
+    É uma boa prática fazer um arquivo de texto com os códigos das cores e com um nome que faça sentido para cada
+    cor, isso facilita na hora que formos mencionar na :root no css. Siga o exemplo do arquivo cores desse projeto.
+
+    Vamos agora montar o css e estilizar a pág. conforme o projeto, para isso criamos classes e 3 folhas de estilo
+    para estilizarmos, separamos entre cabecalho <header>,base<body> e chamada<main>.
+        
+Agora relembremos sobre as unidades de medida pixel, em e rem.
+
+Pixel, ou px, é um valor fixo, ele serve muito bem para telas, e é o valor mais comumente usado.
+No final, tudo vira pixel no site. Mas e se o usuário decidisse ver esses pixels um pouco maiores em seu dispositivo?
+Se você definiu eles com um valor fixo sempre, eles não irão aumentar de tamanho, e isso pode ser considerado um
+problema de acessibilidade. Vamos tentar então encontrar uma solução nas unidades a seguir.
+
+Ephemeral unit / em (unidade transitória ou variável a raiz) - Quando a unidade em surgiu, foi uma verdadeira revolução. 
+Agora tamanhos de tipografia passam a usar uma unidade relativa ao tamanho de fonte que o usuário escolher. Se o usuário 
+decidir deixar as letras bem grandes no navegador ou dispositivo móvel dele (devido a ele enxergar pouco ou qualquer outro motivo) e o 
+desenvolvedor utilizou a unidade em no site, as letras irão se adaptar às suas preferências. Geralmente, o tamanho 
+padrão para 1em é de 16px. 2em seria 32px (pois 16 x 2 = 32), e assim por diante.
+
+Root Ephemeral / rem - Se você definir na raiz do seu site font-size: 14px, 1rem; sempre será 14px em absolutamente
+qualquer elemento, corrigindo assim o problema do em com elementos filhos. Esse é um dos grandes conceitos de
+responsividade
+
+Tanto em quanto rem são unidades relativas.
+
+Mobile First - colocando na tag <head> 
+    <meta name="viewport" content=width=device-width, initial-scale=1>
+    Conseguimos visualizar o site tanto como em navegador desktop, quanto em um mobile.
+Essa tag meta terá um nome = viewport(janela de exibição) a seguir terá um content(conteudo) definindo 
+a largura width=widthdevice, ou seja a largura da tela é igual a largura do dispositivo, por fim teremos a escala inicial
+initial-scale=1, deixará o dispositivo com a escala inicial do tamanho da tela do dispositivo e poderá ser dado zoom
+sem perder a qualidade. 
+Podemos verificar o seu funcionamento na ferramenta do desenvolvedor clicando no ícone de um celular e um tablet,
+lá haverá como verificar a visualização através de vários dispositivos iphone,samsung...
+
+Dentro do arquivo base.css, que é o arquivo que distribui todas as alterações para mais classes dentro da pág.
+Nos iremos colocar uma variável nas cores, ou seja, adicione --nome da variável ex: --azul-claro: ##DFE3E5;
+e iremos colocar essa variável dentro de um seletor o :root (raiz) que é mais forte que o seletor html{}, pq usar 
+dentro da root e não html, pq na root não corremos risco de alguma coisa se subscrever.
+:roo{
+    --azul-claro: ##DFE3E5;
+}
+
+quando formos chamar essa variável usamos a função var() dentro da classe e escolhemos qual variável usar ex:
+.texto_principal{
+    color: var(--azul-claro);
+}
+
+Com as variáveis na :root, nos podemos trocar as cores ou fontes de textos de uma só vez, bastando modificar
+na variavel da root e salvando, isso facilita a manutenção do código.
+
+Vamos repetir a estrutura com a emmet (em inglês significa formiga, justamente pq o pluggin aparenta o trabalho
+das formigas em linha para chegar ao objetivo). 
+No figma, na segunda estrutura da pág, temos dois links <a> com título principal <h2> uma figure(figura) img seguido de um 
+texto <p> em seguida temos a mesma estrutura acrescido de um botão.
+
+Lembre-se de ir planejando os nomes das classes que irá usar, isso otimiza tempo.
+
+Vamos usar o emmet para colocar uma classe dentro da tag:
+section.destaques se dermos enter ele irá estruturar essa section assim:
+<section class="destaques"></section>
+
+Seguindo com a estrutura teremos:
+section.destaques.container>h2.destaques__titulo+
+(a*2>figure.destaques__painel>img.destaques__painel-imagem+figc.destaques__painel-texto)+a.destaques__botao
+
+quando colocamos o parenteses nos dizemos onde começa uma tag e onde ela termina. 
+
+Quando uma imagem não tem importância na página, ou seja no seu entendimento ela irá para o css e não para
+o html.
+
+Na parte do institucional temos o endereço e não iremos mais usar o <p> e sim <adress>, elas não tem diferença, mas o importante
+é que nosso código tenha a informação de relevancia de endereço, isso ajuda na ferramenta de acessibilidade, essa forma é bem mais
+semântica. O ideal é que todas as informações de contato (email, telefone, endereço) fiquem em um lugar só, isso ajuda no ranking da página em 
+sites de buscadores, alem da acessibilidade. 
+Existem vários bots (ferramentas automáticas) que verificam todo o código do nosso projeto, e depois validam para mudar o 
+posicionamento da nossa página nos resultados de motores de busca (ex: Google, Bing, Yahoo).
+
+a estrutura ficará assim:
+section.institucional.container>h2.institucional__titulo
+
+Na parte do endereço há um espaçamento entre uma rua e outra, podemos usar o antigo <br> break para pular a linha
+mas na parte do telefone e contato não podemos, então iremos utilizar article, 
+
+article.institucional__contato>p>a.institucional__contato-telefone+a.institucional__contato-email
+
+Footer
+footer.rodape.container>img.rodape__logo+(ul.rodape__social>li*3>a.rodape__midia)+nav>ul.rodape__navegacao>li*6.rodape__link>a
+
+       O importante aqui é praticar.
+       
+Agora vamos evoluir a visualização da página em tablet e desktop
+
+Nos temos uma background na chamada de cinza escuro, vamos supor que queremos que a partir de uma largura mínima
+de tela ele troque o background para rosa, ou seja quando a tela tiver até 609px estará cinza e a partir de 610px
+ficará rosa:
+
+@media (min-width){
+    .chamada{
+        background-color: #F0F;
+    }
+}
+
+Agora vamos usar essa teoria para colocar a visulaização da nossa pág. para tablets e desktops. Para isso
+adicionamos ao @media o screen (tela) para um colocarmos o tamanho mínimo de tablet. Um tablet tem um tamanho
+padrõa de 768px até 1024px.
+
+@media screen and { (min-width: 768px) 
+    .chamada{
+        background-color: #F0F;
+    }
+
+}
+
+acima teremos a partir de 769px a cor rosa de fundo.
+Agora vamos excluir esse exemplo e aplicar para o texto, que é o que realmente importa nesse caso, já que a 
+cor de fundo não irá mudar. Então teremos:
+@media screen and (min-width: 768px) { para telas a partir de 768px 
+    .chamada__texto{
+       max-width: 600px;
+    }
+}
+  -->

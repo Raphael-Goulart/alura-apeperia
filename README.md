@@ -1,2 +1,2 @@
 # projeto-apeperia
-Arquivos do projeto para a Apeperia
+Website created under the concept of mobile first with responsiveness studies.
